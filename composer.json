@@ -1,0 +1,21 @@
+{
+  "name": "slytherincz/saga",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "type": "library",
+  "authors": [
+    {
+      "name": "SlytherinCz",
+      "email": "me@karel-mlady.com"
+    }
+  ],
+  "require": {
+    "spatie/data-transfer-object": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "SlytherinCz\\Saga\\": "src/"
+    }
+  }
+}
